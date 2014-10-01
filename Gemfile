@@ -5,7 +5,9 @@ gem 'rails', '3.2.11'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+gem 'pg'
+gem 'execjs'
+gem 'therubyracer'
 
 
 # Gems used only for assets and not required
@@ -32,7 +34,7 @@ gem 'jquery-rails'
 # gem 'unicorn'
 
 # Deploy with Capistrano
-# gem 'capistrano'
+gem 'capistrano', '2.11.2'
 
 # To use debugger
 # gem 'debugger'
